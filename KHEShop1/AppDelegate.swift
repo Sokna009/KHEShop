@@ -16,6 +16,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+//        // create viewController code...
+//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//        
+//        let mainViewController = storyboard.instantiateViewController(withIdentifier: "MainViewController") as! ProductListCollectionViewController
+//        let leftViewController = storyboard.instantiateViewController(withIdentifier: "LeftViewController") as! LeftMenuViewController
+//        
+//        let nvc: UINavigationController = UINavigationController(rootViewController: mainViewController)
+//        
+//        let slideMenuController = SlideMenuController(mainViewController: nvc, leftMenuViewController: leftViewController)
+//        self.window?.rootViewController = slideMenuController
+//        self.window?.makeKeyAndVisible()
+        
         return true
     }
 
